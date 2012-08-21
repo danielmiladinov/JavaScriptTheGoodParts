@@ -22,6 +22,6 @@ return {
 // This does not return an object, it returns void/undefined
 return // semicolon insertion happens here
 { // this could be a block
-    ok: false
+    ok: false // ok: this could be a label
 };
 

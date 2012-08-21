@@ -24,5 +24,5 @@ return // semicolon insertion happens here
 { // this could be a block
     ok: false // ok: this could be a label
     // what about false? It looks like a useless expression statement that was missing a semicolon, which also gets inserted...
-};
+}; // But what about this????  Well, ; is a valid empty statement too - THANKS A LOT, C!!!!
 

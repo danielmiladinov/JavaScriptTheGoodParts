@@ -21,6 +21,7 @@ return {
 // THIS IS A SILENT ERROR!
 // This does not return an object, it returns void/undefined
 return // semicolon insertion happens here
+// But all of this is unreachable then, isn't it?
 { // this could be a block
     ok: false // ok: this could be a label
     // what about false? It looks like a useless expression statement that was missing a semicolon, which also gets inserted...

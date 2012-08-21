@@ -6,4 +6,7 @@ Power Constructors
  * new
  * Object.create
  * call another power constructor
+
+2. Define some variables and functions.
+ * These become private members of the object under construction
 */

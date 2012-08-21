@@ -1,0 +1,4 @@
+var singleton = function () {
+
+    return {};
+}();

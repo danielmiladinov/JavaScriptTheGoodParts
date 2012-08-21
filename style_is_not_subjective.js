@@ -18,4 +18,10 @@ return {
     ok: true
 };
 
+// THIS IS A SILENT ERROR!
+// This does not return an object, it returns void/undefined
+return
+{
+    ok: false
+};
 

@@ -19,4 +19,9 @@ Power Constructors
 function myPowerConstructor(x) {
     var that = otherMaker(x);
     var secret = f(x);
+    that.privilegedMethod = function () {
+        // secret;
+        // x;
+        // that;
+    };
 };

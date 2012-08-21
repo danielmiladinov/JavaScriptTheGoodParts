@@ -15,3 +15,7 @@ Power Constructors
 
 4. Return the object.
 */
+
+function myPowerConstructor(x) {
+    var that = otherMaker(x);
+};

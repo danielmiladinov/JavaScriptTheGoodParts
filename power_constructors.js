@@ -12,4 +12,6 @@ Power Constructors
 
 3. Agument the object with privileged methods.
  * These methods have unique access to the properties defined in Step 2.
+
+4. Return the object.
 */

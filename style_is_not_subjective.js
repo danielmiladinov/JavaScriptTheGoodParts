@@ -10,3 +10,12 @@ block
 block {
     // ...
 }
+
+
+// Suppose we want to return an object literal...
+// This works well in JavaScript
+return {
+    ok: true
+};
+
+

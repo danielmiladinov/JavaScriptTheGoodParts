@@ -5,5 +5,13 @@ var singleton = function () {
         /* perhaps do something with privateVariable... */
     };
 
-    return {};
+    return {
+        firstMethod: function (a, b) {
+            /* privateVariable; */
+        },
+
+        secondMethod: function (c) {
+            /* privateFunction(c); */
+        }
+    };
 }();

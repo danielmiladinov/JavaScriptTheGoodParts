@@ -20,7 +20,7 @@ return {
 
 // THIS IS A SILENT ERROR!
 // This does not return an object, it returns void/undefined
-return
+return // semicolon insertion happens here
 {
     ok: false
 };

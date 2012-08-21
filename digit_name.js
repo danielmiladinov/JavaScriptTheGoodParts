@@ -7,6 +7,6 @@ var digit_name = function () {
     return function (n) {
         return names[n];
     }
-}();
+}(); // Here is the outer function being called.
 
 alert(digit_name(3)); // 'three'

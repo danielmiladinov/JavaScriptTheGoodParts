@@ -24,4 +24,5 @@ function myPowerConstructor(x) {
         // x;
         // that;
     };
+    return that;
 };
